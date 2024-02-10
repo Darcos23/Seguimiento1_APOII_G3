@@ -17,7 +17,15 @@ public class InfrastructureDepartment {
         loadBillboard();
     }
 
-    private void loadBillboard()throws Exception{
+    public ArrayList<Billboard> getBillboards() {
+        return billboards;
+    }
+
+    public void setBillboards(ArrayList<Billboard> billboards) {
+        this.billboards = billboards;
+    }
+
+    public void loadBillboard()throws Exception{
 
         URI resource = Main.class.getClassLoader().getResource(InfrastructureDepartment.BILLBOARD_FILE_NAME).toURI();
         File file = new File(resource);

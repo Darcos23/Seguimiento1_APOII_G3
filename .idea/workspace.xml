@@ -5,17 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9870b0b-8ae5-4695-b9e1-1a084b74f4a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Billboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/InfrastructureDepartment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ui/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/BillboardDataExported.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/modelTest/BillboardTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/modelTest/InfrastructureTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Excel.lnk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PowerPoint.lnk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Word.lnk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../desktop.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/modelTest/InfrastructureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/modelTest/InfrastructureTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,11 +24,11 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2c9qvd2CnjXs0oFkFVC89xmc6s1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -44,6 +38,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "JUnit.BillboardTest.executor": "Run",
+    "JUnit.InfrastructureTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -62,6 +58,13 @@
       <recent name="C:\Users\Windows 10\Desktop\Seguimiento1_APOII_G3\Seguimiento1_APOII_G3\src\main\resources" />
     </key>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-20.0.2-azul-20.0.2-4caba194b151-eb49e076" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -71,6 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1707534378914</updated>
       <workItem from="1707534379999" duration="5370000" />
+      <workItem from="1707571542315" duration="5179000" />
     </task>
     <servers />
   </component>
