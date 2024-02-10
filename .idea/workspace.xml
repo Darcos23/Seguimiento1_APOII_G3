@@ -9,7 +9,6 @@
       <change afterPath="$PROJECT_DIR$/../PowerPoint.lnk" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Word.lnk" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../desktop.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/modelTest/InfrastructureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/modelTest/InfrastructureTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1707534378914</updated>
       <workItem from="1707534379999" duration="5370000" />
-      <workItem from="1707571542315" duration="5179000" />
+      <workItem from="1707571542315" duration="7639000" />
     </task>
     <servers />
   </component>

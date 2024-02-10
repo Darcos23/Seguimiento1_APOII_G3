@@ -167,21 +167,26 @@ public class InfrastructureDepartment {
     public String showBillboardsByBrand() {
         String text = "";
 
+        ArrayList<String> uniqueBrands = new ArrayList<>();
+
         for (int i = 0; i < billboards.size(); i++) {
             Billboard b = billboards.get(i);
-            String targetBrand = b.getBrand();
-            int count = 0;
+            String brand = b.getBrand();
 
+            if (!uniqueBrands.contains(brand)) {
+                uniqueBrands.add(brand);
 
-            for (int j = 0; j < billboards.size(); j++) {
-                Billboard bb = billboards.get(j);
-                if (bb.getBrand().equals(targetBrand)) {
-                    count++;
+                int count = 0;
+                for (Billboard bb : billboards) {
+                    if (bb.getBrand().equals(brand)) {
+                        count++;
+                    }
                 }
-            }
 
-            text += "\n" + targetBrand + ": " + count + " Billboards\n";
+                text += "\n" + brand + ": " + count + " Billboards\n";
+            }
         }
+
         return text;
     }
 }
