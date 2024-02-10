@@ -38,6 +38,38 @@ public class InfrastructureTest {
     }
 
     @Test
+    public void testLoadBillboard() throws Exception {
+        InfrastructureDepartment id = new InfrastructureDepartment();
+
+        id.getBillboards().clear();
+
+        id.loadBillboard();
+
+        ArrayList<Billboard> billboards = id.getBillboards();
+
+        Assert.assertEquals(100, billboards.size(), 0.0);
+    }
+
+    @Test
+    public void testImportData() throws Exception {
+        InfrastructureDepartment id = new InfrastructureDepartment();
+        ArrayList<Billboard> billboards = new ArrayList<>();
+        id.setBillboards(billboards);
+
+        id.importData("100|200|true|Brand1");
+
+        billboards = id.getBillboards();
+
+        Assert.assertEquals(1, billboards.size());
+        Billboard billboard = billboards.get(0);
+        Assert.assertEquals(100, billboard.getWidth(), 0);
+        Assert.assertEquals(200, billboard.getHeight(), 0);
+        Assert.assertTrue(billboard.getInUse());
+        Assert.assertEquals("Brand1", billboard.getBrand());
+    }
+
+
+    @Test
     public void testToString() throws Exception {
         ArrayList<Billboard> billboards = new ArrayList<>();
 
